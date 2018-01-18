@@ -1,6 +1,6 @@
 module.exports = function (controller) {
 
-    controller.hears([/^newuser.js$/], "direct_message,direct_mention", function (bot, message) {
+    controller.hears([/^newuser$/], "direct_message,direct_mention", function (bot, message) {
 
         bot.startConversation(message, function (err, convo) {
 
