@@ -6,7 +6,7 @@ module.exports = function (controller) {
             convo.say('This is a BotKit conversation sample.');
 
             convo.ask('What is your favorite color?', function (response, convo) {
-                convo.say("Cool, I like '" + response.text + "' too!");
+                convo.say("Cool, I like '" + response.text + "' too! How cool!!!");
                 convo.next();
             });
         });
