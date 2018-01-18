@@ -21,7 +21,7 @@ module.exports = function (controller) {
                         convo.next();
                     }
                 }
-            ], { key: "answer" });
+            ], { key: "fullname" });
 
             // Success thread
             convo.addMessage(
